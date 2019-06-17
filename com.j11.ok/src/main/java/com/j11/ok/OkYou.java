@@ -1,5 +1,7 @@
 package com.j11.ok;
 
+import com.j11.hello.HelloModules;
+
 /**
  * <pre>
  * <b>Description</b>
@@ -12,7 +14,7 @@ package com.j11.ok;
  */
 public class OkYou {
     public static void main(String[] args) {
-        HelloModule hm = new HelloModule();
+        var var = new HelloModules();
         System.out.println("ok module");
     }
 }

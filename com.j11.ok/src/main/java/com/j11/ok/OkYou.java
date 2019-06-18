@@ -14,7 +14,8 @@ import com.j11.hello.HelloModules;
  */
 public class OkYou {
     public static void main(String[] args) {
-        var var = new HelloModules();
         System.out.println("ok module");
+        var var = new HelloModules();
+        System.out.println(var.getClass());
     }
 }
